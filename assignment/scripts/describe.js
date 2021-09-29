@@ -135,11 +135,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+//FIX - colorOne is set to 'red' and colorTwo is set to 'blue'.
+// colorOne should be 'blue' and colorTwo 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+//FIX - only colorOne is reassigned to 'purple'.
+// colorTwo should also be set to 'purple'.
   colorOne = 'purple';
 }
 */
@@ -150,8 +155,13 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//FIX - time is a constant, but the instructions say it should be a variable.
+// Should be let time = 4.
 const time = 4;
 
+
+//FIX - || checks if one or the other is true, not both.
+// Should be (temp > 39 && time >= 4).
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
