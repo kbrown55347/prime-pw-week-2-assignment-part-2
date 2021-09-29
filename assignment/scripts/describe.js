@@ -29,7 +29,7 @@ if (number >= 2) {
 // We create a variable called name and assign it the string 'Dane'.
 // We check if name is equal to the string 'Mary'.
 // It is not, so we do not execute the code in that block.
-// Instead, we go to the next line of code and console.log 'How do you do?'.
+// Instead, we console.log 'How do you do?'.
 
 //CODE
 /*
@@ -46,7 +46,7 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We create a variable called secret.
-// Then we create a variable called code and assign it the number 123.
+// We create a variable called code and assign it the number 123.
 // We check if code is equal to 123.
 // It is, so 'super' is assigned to secret and we multiply the value of code by 2, code is now 246.
 // We check if code is greater than 250. It's not, so we don't execute the code in that block.
@@ -143,8 +143,8 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
-//FIX - only colorOne is reassigned to 'purple'.
-// colorTwo should also be set to 'purple'.
+//FIX - only colorOne is reassigned to 'purple', but colorTwo should be too.
+// Should add colorTwo = 'purple'.
   colorOne = 'purple';
 }
 */
@@ -155,13 +155,13 @@ if (mix === true) {
 
 /*
 let temp = 40;
-//FIX - time is a constant, but the instructions say it should be a variable.
+//FIX - time is a constant, but instructions say it is a variable.
 // Should be let time = 4.
 const time = 4;
 
 
-//FIX - || checks if one or the other is true, not both.
-// Should be (temp > 39 && time >= 4).
+//FIX - || checks if one or the other is true, but we want to check if both are true.
+// Should be if (temp > 39 && time >= 4).
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -173,11 +173,21 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+//FIX - minAge is a constant, but instructions say it is a variable.
+// Should be let minAge = 21.
 const minAge = 21;
 
+
+//FIX - Here we're checking if minAge is less than or equal to age,
+//but instructions say to check if age is greater than or equal to minAge.
+// Should be if(age >= minAge).
 if(minAge <= age) {
+//FIX - this will console.log 'no entry', instructions say to console.log 'enter'
+// Should be console.log('enter').
   console.log('no entry');
 } else {
+//FIX? - Not entirely sure if this is an issue, but with the fix above, both scenarios would now console.log 'enter'.
+// Might be best to now have a different string to differentiate between the two results, such as console.log('no entry').
   console.log('enter');
 }
 */
