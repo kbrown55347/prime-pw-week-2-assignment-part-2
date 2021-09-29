@@ -47,10 +47,10 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We create a variable called secret.
 // Then we create a variable called code and assign it the number 123.
-// We check if code is equal to the number 123.
-// It is, so we assign the string 'super' to the variable secret and multiply the value of code by 2. The value of code is now the number 246.
-// Next, we check if the value of code is greater than 250. It is not, so we do not execute the code in that block.
-// Lastly, we console.log the value of secret which is the string 'super'.
+// We check if code is equal to 123.
+// It is, so 'super' is assigned to secret and we multiply the value of code by 2, code is now 246.
+// We check if code is greater than 250. It's not, so we don't execute the code in that block.
+// Lastly, we console.log the value of secret which is 'super'.
 
 //CODE
 /*
@@ -72,11 +72,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We create a variable isStudent and assign it the boolean true.
-// We create a variable age and assign it the number 34.
-// We create a variable zip and assign it the number 55407.
-// We check if isStudent is true and if zip is greater than 80000. Zip is not greater than 80000, so we do not execute the code in that block and move on.
-// We check if isStudent is false or if age is less than 30. Neither of those is true, so we do not execute the code in that block and move on.
+// We create three variables: isStudent is assigned the boolean true,
+// age is assigned the number 34, and zip is assigned the number 55407.
+// We check if isStudent is true and if zip is greater than 80000. Zip is not greater than 80000,
+// so we do not execute the code in that block.
+// We check if isStudent is false or if age is less than 30.
+// Neither is true, so we do not execute the code in that block.
 // We check if isStudent is true. It is, so we console.log 'Welcome to Prime!' and end there.
 
 //CODE
